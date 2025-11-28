@@ -1,0 +1,106 @@
+body {
+    background-color: #3f3f3f;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    font-size: 16px;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #ADD8E6;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+ol {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-left: 4px solid #3498db;
+    margin: 20px 0;
+}
+
+ol li {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: square;
+    margin-top: 10px;
+}
+
+ul li {
+    color: #555555;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: block;
+}
+
+.table-img {
+    max-width: 200px;
+    height: auto;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+table th {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin: 20px 0;
+    max-width: 500px;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-

@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Description" content="Karol Szymański - ćwiczenia HTML MUL ">
+<meta name="Keywords" content="MUL, HTML, CSS, FRONTEND" />
+<meta name="viewport" content="width=device-width, maximum-scale=3.0, minimum-scale=1.0, initial-scale=1" />
+<title>Karol Szymański cwiczenia MUL HTML</title>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<link rel="stylesheet" type="text/css" media="only screen and (max-width:500px)" href="style_mobile.css" />
+<script src="script.js"></script>
+
+</head>
+<body>
+
+
+<h1>Karol Szymański</h1>
+
+
+<div id="greeting"></div>
+<br>
+ <button onclick="greetUser()">Say Hi</button>
+ <br>
+ 
+ <button onclick="changeBackgroundColor()">Change Background</button>
+ <br>
+
+ 
+ <div id="result"></div>
+ <button onclick="calculate()">Calculate</button>
+ <br>
+ <div id="timer">10</div>
+ <button onclick="startCountdown()">Start Timer</button>
+ <br>
+ <form onsubmit="return validateForm()">
+ Name: <input type="text" id="name">
+ <span id="error" style="color:red;"></span>
+ <button type="submit">Submit</button>
+ </form>
+ 
+ <input type="text" id="taskInput" placeholder="Enter task">
+ <button onclick="addTask()">Add Task</button>
+ <ul id="taskList"></ul>
+
+<script src="snow.js"></script>
+
+</body>
+</html>
